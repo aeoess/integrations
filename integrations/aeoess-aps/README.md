@@ -66,7 +66,7 @@ as no evidence rather than as not revoked. TRACE's own section 3.2.3 takes the A
 position at the bundle level (a verifier with no bundle reports that it performed no
 revocation check). The behaviour observed at agentrust-trace 0.9.0 is retained here as a tested
 implementation result; agentrust-io/trace-spec#246 records it as inconsistent with
-section 3.2.3. It cannot be re-observed on this exporter's record at 0.10.0, where
+section 3.2.3. It was not re-evaluated at 0.10.0, where
 `verify_record` refuses the record on schema grounds before any revocation check
 runs, so these rows are 0.9.0 results and are not restated for 0.10.0.
 

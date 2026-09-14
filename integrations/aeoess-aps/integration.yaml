@@ -38,7 +38,7 @@ tested_against:
   # These versions are the fixed run in .github/workflows/aeoess-aps-conformance.yml.
   # The floating run installs unpinned releases as drift detection (#169).
   # The revocation observations in README were made against 0.9.0 and stand as
-  # 0.9.0 results. They cannot be re-run on this exporter's record at 0.10.0:
+  # 0.9.0 results. They were not re-run on this exporter's record at 0.10.0:
   # verify_record refuses it on schema grounds before any revocation check runs
   # (observed with an empty store, a callable returning a non-bool, and a
   # callable returning True; all three raise the schema error first).
