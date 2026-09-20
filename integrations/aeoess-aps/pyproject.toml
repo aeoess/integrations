@@ -13,7 +13,11 @@ dependencies = [
   # that release, which is what makes this integration's partial record a
   # documented boundary rather than an accident. See the round-trip tests.
   "agentrust-trace>=0.10.0",
-  "agent-passport-system>=2.10",
+  # 4.0.0 is the floor: the section 5.3 stage rules, the sha256: prefixed
+  # delegation_ref and the separate signer-authority axis all arrive in that
+  # release, and the action intent verifier reads all three. An earlier
+  # release would accept a stage-invalid record as valid.
+  "agent-passport-system>=4.0",
 ]
 
 [project.optional-dependencies]
