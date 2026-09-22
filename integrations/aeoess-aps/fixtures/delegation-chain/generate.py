@@ -245,7 +245,7 @@ def main() -> None:
         ("keys.json", keys_out),
         ("meta.json", meta),
     ):
-        (HERE / name).write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        (HERE / name).write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":
