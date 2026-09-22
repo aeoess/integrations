@@ -3,6 +3,8 @@
 
 # agentrust-io Integrations
 
+Community updates and contributor highlights: [AgenTrust on LinkedIn](https://www.linkedin.com/company/agentrust-io/).
+
 The ecosystem front door for cMCP, TRACE, and Agent Manifest. Vendors and community projects integrate here, on their own terms, under published rules - while the core repos stay first-party.
 
 Project support is recognized in [SPONSORS.md](SPONSORS.md). Sponsorship is
@@ -38,7 +40,10 @@ TRACE only works as a standard if it is genuinely neutral. Integrations are list
 | [claude-code](claude-code/) | agentrust-io | agent-manifest, trace | community |
 | [Agent Passport System](integrations/aeoess-aps/) | aeoess | trace | community |
 | [cA2A Cross-Operator Delegation](integrations/agentrust-ca2a-cross-operator/) | agentrust-io | ca2a | community |
+| [Agent Replay](integrations/altrudev-agent-replay/) | Altru.dev | trace | community |
+| [Bernstein MCP verifier](integrations/bernstein-mcp/) | Bernstein | trace | community |
 | [CHAP](integrations/chap/) | agentrust-io | trace | community |
+| [AI Agent Incident Register](integrations/companyscope-incident-register/) | CompanyScope | agent-manifest | community |
 | [comply54](integrations/comply54/) | comply54 | trace | community |
 | [ComputeID AgentPassport TRACE Adapter](integrations/computeid-agentpassport-trace/) | ComputeID | trace | community |
 | [DecisionAssure](integrations/decisionassure/) | DecisionAssure (a1k7) | trace | community |
@@ -48,11 +53,12 @@ TRACE only works as a standard if it is genuinely neutral. Integrations are list
 | [SOVP](integrations/litzki-systems-sovp/) | Litzki Systems | trace | verified |
 | [LlamaIndex](integrations/llamaindex/) | agentrust-io | trace | community |
 | [Nobulex](integrations/nobulex/) | Nobulex | trace | community |
+| [OntoGuard Decision Authorization](integrations/ontoguard-decision-authorization/) | OntoGuard AI | trace | community |
 | [OpenAI Agents SDK](integrations/openai-agents/) | agentrust-io | trace | community |
 | [OpenShell TRACE Adapter](integrations/openshell/) | agentrust-io | trace | community |
 | [OpenTelemetry GenAI](integrations/otel-genai/) | agentrust-io | trace | community |
 | [ramen-ai cMCP Adapter](integrations/ramen-ai-cmcp/) | ramen-ai | cmcp, trace | verified |
-| [SAGE AgenTrust Bridge](integrations/sage-agenttrust/) | SAGE AgenTrust Bridge | cmcp, trace | community |
+| [SAGE AgenTrust Bridge](integrations/sage-agenttrust/) | SAGE | cmcp, trace | community |
 | [Agent Sentinel](integrations/sentinel/) | a1k7 | trace | community |
 | [Shadow AI Discovery](integrations/shadow-ai/) | agentrust-io | cmcp, agent-manifest | community |
 | [Agentic SpendGuard](integrations/spendguard/) | SpendGuard | trace | community |
